@@ -9,10 +9,12 @@ import Footer from "./components/Footer";
 import CopyRight from "./components/CopyRight";
 
 
+
 const App = () => {
 
   return (
     <div className="app">
+   
       <AppSectionOneCode />
       <AppSectionTwoCode />
       <AppSectionThreeCode />

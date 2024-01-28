@@ -1,22 +1,19 @@
-
 import React from 'react';
-import { BrowserRouter, Route, Routes} from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import App from '../App'; 
+import AllCoursesComponent from "./AllCoursesComponent";
+import AboutComponent from './AboutComponent';
+import ContactComponent from "./ContactComponent";
 
-export const Routing = () => {
-
-
+const Routing = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-       
-
-        {/* <Route path="/AllCourses" element={<AllCoursesComponent />} />
-        <Route path="/About" element={<AboutComponent />} />
-        <Route path="/Contact" element={<ContactComponent />} />
-       */}
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/allCourses" element={<AllCoursesComponent />} />
+      <Route path="/about" element={<AboutComponent />} />
+      <Route path="/contact" element={<ContactComponent />} />
+    </Routes>
   );
 };
+
+export default Routing;
