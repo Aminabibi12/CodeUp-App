@@ -1,11 +1,12 @@
 import React from 'react';
+import "./App.css";
 
 const AboutUsTextComponent = () => {
   return (
     <>
       <div className="AboutUsTextComponent ">
 
-        <img src="https://cdn4.iconfinder.com/data/icons/materia-flat-design-vol-1/24/034_011_quotes_phrase_statement_text_open_paragraph-128.png" alt="" style={{width:"45px", marginLeft:"300px"}} />
+        <img className=" about-img1 "src="https://cdn4.iconfinder.com/data/icons/materia-flat-design-vol-1/24/034_011_quotes_phrase_statement_text_open_paragraph-128.png" alt="" style={{width:"45px", marginLeft:"300px"}} />
 
         <p
           style={{
@@ -20,7 +21,7 @@ const AboutUsTextComponent = () => {
         </p>
 
 
-        <img src="https://cdn4.iconfinder.com/data/icons/materia-flat-design-vol-1/24/034_012_quotes_phrase_statement_text_close_paragraph-128.png" alt=""style={{width:"45px", marginLeft:"1100px"}} />
+        <img className=" about-img2 " src="https://cdn4.iconfinder.com/data/icons/materia-flat-design-vol-1/24/034_012_quotes_phrase_statement_text_close_paragraph-128.png" alt=""style={{width:"45px", marginLeft:"1100px"}} />
 
       </div>
     </>

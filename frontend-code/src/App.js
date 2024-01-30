@@ -7,7 +7,7 @@ import AppSectionFiveCode from "./components/AppSectionFiveCode";
 import MembershipComponent from "./components/MembershipComponent";
 import Footer from "./components/Footer";
 import CopyRight from "./components/CopyRight";
-
+import "./components/App.css";
 
 
 const App = () => {

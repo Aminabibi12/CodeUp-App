@@ -47,7 +47,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="container" style={containerStyle}>
+      <div className="nav-container" style={containerStyle}>
         <div className="logo" style={{ display: 'flex', gap: '10px', marginLeft: '35px' }}>
           <div className="logo-img" style={{ paddingTop: '20px' }}>
             <img

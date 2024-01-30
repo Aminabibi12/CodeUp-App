@@ -12,13 +12,13 @@ const AppThreeSection = () => {
       </div>
 
       <div className="section3Text" style={section3TextStyle}>
-        <p style={section3TitleStyle}>WHAT OUR HAPPY STUDENTS SAY</p>
+        <h1 style={section3TitleStyle}>WHAT OUR HAPPY STUDENTS SAY</h1>
 
         <h2 style={section3SubtitleStyle}>
           The beginning was challenging, but the masterclass provided a supportive learning environment, encouraging collaboration, and offering mentorship. The masterclass not only provided technical knowledge but also fostered a sense of community, mentorship, and confidence.
         </h2>
 
-        <p style={section3AuthorStyle}>Elina Miles</p>
+        <h3 style={section3AuthorStyle}>Elina Miles</h3>
         <p style={section3RoleStyle}>Student</p>
       </div>
     </div>

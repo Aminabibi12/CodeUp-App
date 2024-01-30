@@ -1,6 +1,587 @@
-.html, body {
-  margin: 0 !important;
-  padding: 0 !important;
+.appSection-one {
+  background-image: url("https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-hero-section-bg.svg");
+  background-size: cover;
+  background-position: center;
+  max-height: 750px;
+  max-width: 100%;
+}
+
+
+@media screen and (max-width: 425px) {
+
   
+  .appSection-one {
+    /* height: 1000px !important;  */
+    width: 100% !important; 
+    
+  }
+
+  .appOne-container {
+    flex-direction: column !important; 
+    gap: 30px !important; 
+    padding: 0 !important; 
+    margin-top: 0 !important;
+    width: 100% !important; 
+    margin-left: 0 !important;
+    
+  }
+
+  .appOne-container button {
+
+    margin-left: 140px !important;
+    
+  }
+  .appOne-text {
+    width: 100% !important; 
+    padding: 0 !important; 
+    margin: 0 !important; 
+    
+  }
+
+  .appOne-text p {
+    font-size:.8rem !important; 
+    letter-spacing:0;
+    text-align: center;
+    padding: 0 !important; 
+    width: 100% !important; 
+  }
+
+  .appOne-text h1 {
+    width: 100% !important; 
+    font-size: 1rem !important; 
+    text-align: center;
+    margin-top: 50px !important;
+  }
+
+  .appOne-image {
+    width: 100% !important; 
+  }
+
+  .appOne-image {
+    width: 100% !important; 
+    padding: 0 !important; 
+    margin: 0 !important; 
   }
   
+  .appOne-image video {
+    width: 100% !important; 
+    padding: 0 !important; 
+    margin: 0 !important; 
+  }
+
+  .sectionTwo-container {
+    width: 100% !important; 
+    height: 800px !important;
+    flex-direction: column;
+    gap: 5px !important;
+    padding-left: 60px !important;
+  
+   
+  }
+  
+  .sectionTwo-img {
+    width: 100% !important; 
+   
+  }
+  
+  .sectionTwo-img img {
+    width: 100% !important;  /* Set the width to 100% to fit the container */
+    height: auto !important; /* Maintain the aspect ratio */
+    padding-left: 200px !important;
+  }
+  
+  .sectionThreeContainer{
+    width: 100% !important; 
+    flex-direction: column; 
+    gap: 15px !important;
+    padding: 0 !important; 
+    margin-left: 0 !important;
+    margin-right: 0 !important; 
+    margin-top: 80px !important;
+
+  }
+
+  .section3Image {
+    width: 100% !important; 
+    padding: 0 !important; 
+    margin: 0 !important; 
+}
+
+  .section3Image img {
+    width: 425px !important; 
+    padding: 0 !important; 
+    margin: 0 !important;
+
+  }
+
+  .section3Text {
+    width: 100% !important; 
+    padding: 0 !important; 
+    margin-left: 0 !important;
+    margin-right: 0 !important; 
+    margin-top: 50px !important;
+  }
+
+  .section3Text h1 {
+    width: 100% !important; 
+    font-size: 1rem !important;
+    text-align: center;
+  }
+
+  .section3Text h2 {
+    width: 100% !important; 
+    font-size: 1rem !important;
+    text-align: center;
+  }
+
+  .section3Text h3 {
+    width: 100% !important; 
+    font-size: 1rem !important;
+    text-align: center;
+  }
+
+  .section3Text p {
+    width: 100% !important; 
+    font-size: 1rem !important;
+    text-align: center;
+  }
+ 
+  .AppFourSectionContainer {
+    width: 100% !important; 
+    padding: 0 !important; 
+    margin: 0 !important;
+    flex-direction: column;
+    gap:50px !important;
+  }
+
+  .AppFourSectionContainer  button{
+
+    margin-left: 140px !important;
+  }
+
+  .sectionFour-image {
+    width: 100% !important; 
+    padding: 0 !important; 
+    margin: 0 !important;
+  }
+  .sectionFour-image img {
+    width: 100% !important; 
+    padding: 0 !important; 
+    margin: 0 !important;
+  }
+  .sectionFour-text {
+    width: 100% !important; 
+    padding: 0 !important; 
+    margin: 0 !important;
+  }
+  .sectionFour-text  h2 {
+    width: 100% !important; 
+    font-size: 1.3rem !important;
+    font-weight: 700px;
+    text-align: center;
+    letter-spacing: none !important;
+  }
+
+  .sectionFour-text  p {
+    width: 100% !important; 
+    font-size: .8rem !important;
+    text-align: center;
+    letter-spacing: none !important;
+  }
+
+
+  .AppSectionFiveCodeContainer {
+    width: 100% !important; 
+    padding: 0 !important; 
+    margin: 0 !important;
+  }
+  .testimonials {
+    width: 100% !important; 
+  }
+
+  .ttestimoialscardsDiv {
+    width: 100% !important; 
+  }
+ 
+  .TestimoialHeadingContaine{
+    width: 100% !important; 
+    padding: 0 !important; 
+    margin: 0 !important;
+  }
+
+  .TestimoialHeadingContaine p{
+    width: 100% !important; 
+    font-size: 1.3rem !important;
+    font-weight: 700px;
+    text-align: center;
+    letter-spacing: none !important;
+    margin: 0 !important;
+  }
+
+  .TestimoialHeadingContaine h1{
+    width: 100% !important; 
+    font-size: 1.3rem !important;
+    font-weight: 700px;
+    text-align: center;
+    letter-spacing: none !important;
+  }
+
+  .testimonials-container {
+    width: 100% !important; 
+    padding: 0 !important; 
+    margin: 0 !important;
+    flex-direction: column;
+    gap:50px !important;
+  }
+
+  .testimonial-card {
+    width: 100% !important; 
+    margin: 0 !important;
+   
+    /* margin-left: 5px !important;
+    margin-right: 5px !important; */
+  }
+  .membership-container {
+    width: 100% !important; 
+    padding: 0 !important; 
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 50px;
+  }
+
+  .membership-container h1{
+    width: 100% !important; 
+    padding-top: 40px;
+    margin: 0 !important;
+    font-size: 1.3rem !important;
+    font-weight: 700px;
+    text-align: center;
+  } 
+
+  .membership-container p{
+    width: 100% !important; 
+    padding-top: 50px;
+    margin: 0 !important;
+    font-size: 1rem !important;
+    font-weight: 700px;
+    text-align: center;
+  } 
+
+  .membership-container button {
+    margin-top: 40px !important;
+  }
+  
+  /*   44444444444444444444444444444444444444444444hgg      */
+
+  footer{
+    width: 100% !important;
+    height: 1200px !important;
+  }
+
+  .container {
+    width: 100% !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    margin: 0% !important;
+    padding: 0% !important;
+  }
+
+  .row {
+    flex-direction: column !important;
+    gap: 10px !important;
+    width: 100% !important;
+    margin-left: 120px !important;
+  }
+  .col-md-3 {
+    width: 100% !important;
+    margin: 0% !important;
+    padding: 0% !important;
+  }
+
+  .footer-end {
+    width: 100% !important;
+    height: 300px !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    padding-left: 120px !important;
+    padding-right: 0 !important;
+    margin:0 !important;
+  }
+
+  .nav-container {
+    gap: 5px !important; 
+    width: 100% !important;
+    margin:0 !important;
+    flex-direction: column;
+  
+  }
+
+  .navbar-start {
+    display: hide; 
+    flex-direction: column; 
+    align-items: flex-start;
+    margin:0 !important;
+  }
+
+  .navbar-item {
+    margin-left: 20 !important; 
+  
+  }
+  .navbar-item[href="/"] {
+    margin-left:20px; /* Add margin to the left and right */
+  }
+
+  .navbar-start button{
+     margin-right: 150px !important;
+     margin-top: 30px!important;
+     margin-left: 140px;
+  }
+
+  .courses-component {
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    height: auto !important;
+ 
+  }
+  .AllCoursesNavbar
+  {
+    flex-direction: column;
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+  .all-courses-Heading {
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    flex-direction: column;
+    gap:40px !important;
+  }
+
+  .allCourseText {
+    width: 100% !important;
+    
+  }
+
+  .allCourseText h2 {
+    width: 100% !important;
+    padding: 0px !important;
+    margin-top: 20px !important;
+    margin-left: 0px !important;
+    font-size: 1.3rem !important;
+    text-align: center !important;
+  }
+
+  .allCourseText p {
+    width: 100% !important;
+    padding-right: 0px !important;
+    margin-top: 20px !important;
+    margin-left: 0px !important;
+    font-size: 1rem !important;
+    text-align: center !important;
+    margin-bottom: 0% !important;
+  }
+
+  .allCourseImg {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0px !important;
+    padding: 0px !important;
+
+  }
+
+  .allCourseImg img {
+    width: 350px !important;
+    height: auto !important;
+    margin-left: 35px !important;
+    padding: 0px !important;
+  }
+
+  .main-corseCards-box {
+    width: 100% !important;
+    padding: 0px !important;
+    margin-top: 50px !important;
+    flex-direction: column;
+    
+  }
+
+  .card-group-1 {
+    flex-direction: column;
+    width: 100%!important;
+    margin-left: 40px !important;
+    margin-bottom: 40px !important;
+   
+    
+  }
+  .card-group-2 {
+    flex-direction: column;
+    width: 100% !important;
+    margin-left: 40px !important;
+  }
+  .card {
+    margin: 0px !important;
+  }
+  .AboutComponent-Container {
+     width: 100% !important;
+     padding: 0px !important;
+    margin:0px !important;
+  }
+
+  .AboutHeaderAndNavbar-contaier {
+    width: 100% !important;
+    padding: 0px !important;
+    margin:0px !important;
+    
+  }
+
+  .aboutus-video {
+
+    width: 100% !important;
+    flex-direction: column;
+    gap:30px !important;
+    padding: 0px !important;
+    margin:0px !important;
+  }
+
+  .abotUs-headig {
+    width: 100% !important;
+    padding: 0px !important;
+    margin:0px !important;
+  }
+
+  .abotUs-headig  h2{
+    width: 100% !important;
+    padding: 0px !important;
+    font-size: 1.3rem !important;
+    margin-left:0px !important;
+    margin-top: 25px !important;
+    text-align: center;
+  }
+
+  .abotUs-headig  p{
+    width: 100% !important;
+    padding: 0px !important;
+    font-size: 1rem !important;
+    margin-left:0px !important;
+    margin-top: 25px !important;
+    text-align: center;
+  }
+
+  .aboutus-video {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0px !important;
+    padding: 0px !important;
+
+  }
+
+  .aboutus-video video {
+    width: 350px !important;
+    height: auto !important;
+    margin-left: 35px !important;
+    padding: 0px !important;
+  }
+
+  .AboutUsTextComponent {
+    width: 350px !important;
+    height: auto !important;
+    margin-left: 30px !important;
+    padding: 0px !important;
+    
+  }
+
+  .AboutUsTextComponent  p{
+    width: 350px !important;
+    height: auto !important;
+    font-size: 1rem !important;
+    text-align: center;
+    margin: 0px !important;
+    padding: 0px !important;
+
+  }
+
+  .AboutUsTextComponen  {
+    width: 425px !important;
+    margin-left: 0px !important;
+    margin-top: 30px !important;
+    padding: 0px !important;
+
+  }
+
+  .about-img1  {
+
+    width:20px !important;
+    height: auto !important;
+    margin-left: 10px !important;
+    padding: 0px !important;
+    margin-top: 30px !important;
+  }
+  .about-img1 img{
+     width:20px !important;
+     height: auto !important;
+     margin-left: 10px !important;
+     padding: 0px !important;
+
+  }
+  .about-img2  {
+    width:20px !important;
+    height: auto !important;
+    margin-left: 330px !important;
+    padding: 0px !important;
+  }
+
+  .about-img2 img{
+    width:20px !important;
+    height: auto !important;
+    margin-left: 10px !important;
+    padding: 0px !important;
+
+ }
+
+ .IsntructorsComponent-container {
+  width: 100% !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.head-text h1 {
+  width: 100% !important;
+  padding: 0px !important;
+  text-align: center!important;
+  font-size: 1.3rem !important;
+  margin-top: 80px !important;
+}
+.instructors {
+  width: 100% !important;
+  flex-direction: column !important;
+
+}
+.instructors img {
+  width: 140px !important;
+  height: 140px !important;
+  border-radius: 70px !important;
+
+}
+.instructor-icon img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.counter-container {
+  width: 100% !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.counters {
+  flex-direction: column;
+}
+.counter-heading h2 {
+  width: 100% !important;
+  padding: 0px !important;
+  margin-bottom: 100px !important;
+  text-align: center!important;
+  font-size: 1.3rem !important;
+}
+}

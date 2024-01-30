@@ -11,7 +11,7 @@ const AppSectionFiveCode = () => {
         <TestimoialHeading />
         </div>
 
-        <div className="testimoialsXardsDiv">
+        <div className="testimoialscardsDiv">
         <TestimonialsCards />
         </div>
 

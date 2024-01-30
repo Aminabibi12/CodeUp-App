@@ -5,6 +5,7 @@ import AppFourSection from "./AppFourSection";
 import MembershipComponent from "./MembershipComponent";
 import Footer from "./Footer";
 import CopyRight from "./CopyRight";
+import "./App.css";
 
 const AllCoursesComponent = () => {
   return (
