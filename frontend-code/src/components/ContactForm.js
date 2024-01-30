@@ -69,11 +69,11 @@ const ContactForm = () => {
   };
 
   return (
-    <div style={formContainerStyle}>
-      <div style={{ ...formPageStyle, marginRight: '20px' }}>
+    <div className="form-main-box" style={formContainerStyle}>
+      <div className="form-box" style={{ ...formPageStyle, marginRight: '20px' }}>
         <h1>Contact Us!</h1>
         <form onSubmit={handleSubmit}>
-          <div style={formFieldsStyle}>
+          <div className="form-name"style={formFieldsStyle}>
             <label htmlFor="name" style={{ fontWeight: '600', marginLeft: '10px', marginBottom: '10px' }}>
               Name
             </label>
@@ -88,7 +88,7 @@ const ContactForm = () => {
             />
           </div>
 
-          <div style={formFieldsStyle}>
+          <div className="form-email" style={formFieldsStyle}>
             <label htmlFor="email" style={{ fontWeight: '600', marginLeft: '10px', marginBottom: '10px' }}>
               Email
             </label>
@@ -103,7 +103,7 @@ const ContactForm = () => {
             />
           </div>
 
-          <div style={formFieldsStyle}>
+          <div className="form-message"style={formFieldsStyle}>
             <label htmlFor="message" style={{ fontWeight: '600', marginBottom: '10px', marginLeft: '10px' }}>
               Message
             </label>
@@ -117,7 +117,7 @@ const ContactForm = () => {
             />
           </div>
 
-          <button
+          <button className='form-button'
             style={navButtonStyle}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
@@ -127,9 +127,9 @@ const ContactForm = () => {
         </form>
       </div>
 
-      <div style={formPageStyle}>
+      <div className="second-page-form" style={formPageStyle}>
         <h1 style={{ marginLeft: '100px' }}>Approach Us</h1>
-        <div>
+        <div className="second-page-form-h">
           <h2 style={{ fontWeight: '600', marginBottom: '10px', marginLeft: '100px',marginTop:"55px" }}>Address</h2>
           <img
             src="https://cdn4.iconfinder.com/data/icons/navigation-98/512/23_Location_map_pin_mark_navigation-128.png"
@@ -140,7 +140,7 @@ const ContactForm = () => {
         </div>
 
         <div style={formFieldsStyle}>
-          <div>
+          <div className="second-page-form-h"> 
             <h2 style={{ fontWeight: '600', marginBottom: '10px', marginLeft: '100px' }}>Call Us</h2>
 
             <img

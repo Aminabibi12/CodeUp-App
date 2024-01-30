@@ -15,7 +15,7 @@ const ContactNavbatComponent = () => {
         <Navbar />
         </div>
 
-        <div style={{ display: "flex", gap: "100px",marginLeft:"150px",marginTop:"150px" }}>
+        <div className="contact-start"style={{ display: "flex", gap: "100px",marginLeft:"150px",marginTop:"150px" }}>
 
 
           <div className="text">
@@ -29,7 +29,7 @@ const ContactNavbatComponent = () => {
         
           </div>
 
-          <div className="img">
+          <div className="text-img">
           <img src="https://img.freepik.com/free-photo/conceptual-management-with-wooden-cubes-envelope_176474-10535.jpg?size=626&ext=jpg&ga=GA1.1.430224270.1704229904&semt=sph" alt=""style={{width:"650px", height:"400px", borderRadius:"10px"}} />
           </div>
        

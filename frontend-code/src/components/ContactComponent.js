@@ -8,7 +8,7 @@ import CopyRight from './CopyRight';
 const ContactComponent = () => {
   return (
     <>
-      <div style={{ height: "100%", overflowY: "auto" }}>
+      <div className="cotact-main-container"style={{ height: "100%", overflowY: "auto" }}>
 
         <ContactNavbatComponent />
         <ContactForm />

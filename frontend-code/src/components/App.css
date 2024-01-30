@@ -584,4 +584,71 @@
   text-align: center!important;
   font-size: 1.3rem !important;
 }
+
+.cotact-main-container {
+  width: 100% !important;
+  margin: 0px !important;
+}
+
+.ContactNavbatComponent {
+  width: 100% !important;
+  margin: 0px !important;
+
+}
+.contact-start {
+  flex-direction: column;
+  width: 100% !important;
+  margin: 0px !important;
+  gap: 30px !important;
+
+}
+
+.text {
+  width: 100% !important;
+  margin: 0px !important;
+}
+.text  h1{
+  width: 100% !important;
+  text-align: center !important;
+  font-size: 1.3rem !important;
+  
+}
+
+.text  p{
+  width: 100% !important;
+  text-align: center !important;
+  font-size: 1rem !important;
+}
+.text-img {
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.text-img img{
+  width: 350px !important;
+  height: auto !important;
+  margin-left: 38px !important;
+  }
+.form-main-box {
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.form-box {
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.form-box form{
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.form-box h1 {
+  width: 100% !important;
+  text-align: center !important;
+  font-size: 1.3rem !important;
+}
 }
