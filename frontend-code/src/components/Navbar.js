@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const baseNavStyle = {
@@ -47,14 +47,10 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="nav-container" style={containerStyle}>
+      <div className="container" style={containerStyle}>
         <div className="logo" style={{ display: 'flex', gap: '10px', marginLeft: '35px' }}>
           <div className="logo-img" style={{ paddingTop: '20px' }}>
-            <img
-              src="https://cdn3.iconfinder.com/data/icons/seo-internet-marketing-flat-icons/128/web-code.png"
-              alt=""
-              style={{ width: '30px', height: '30px' }}
-            />
+            <img src="https://cdn3.iconfinder.com/data/icons/seo-internet-marketing-flat-icons/128/web-code.png" alt="" style={{ width: '30px', height: '30px' }} />
           </div>
           <div className="logo-p" style={{ fontFamily: 'sans-serif', color: 'white' }}>
             <h2 style={{ letterSpacing: '2px' }}>CodeUp</h2>
@@ -62,18 +58,18 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-start">
-          <RouterLink to="/" className="navbar-item" style={navStyle('home')}>
-            Home
-          </RouterLink>
-          <RouterLink to="/allCourses" className="navbar-item" style={navStyle('allCourses')}>
-            All Courses
-          </RouterLink>
-          <RouterLink to="/about" className="navbar-item" style={navStyle('about')}>
-            About
-          </RouterLink>
-          <RouterLink to="/contact" className="navbar-item" style={navStyle('contact')}>
-            Contact
-          </RouterLink>
+          {['home', 'allCourses', 'about', 'contact'].map((item) => (
+            <Link
+              key={item}
+              to={`/${item === 'home' ? '' : item}`}
+              className="navbar-item"
+              style={navStyle(item)}
+              onMouseEnter={() => handleMouseEnter(item)}
+              onMouseLeave={handleMouseLeave}
+            >
+              {item.charAt(0).toUpperCase() + item.slice(1)}
+            </Link>
+          ))}
           <button
             style={navButtonStyle}
             onMouseEnter={() => handleMouseEnter('button')}
